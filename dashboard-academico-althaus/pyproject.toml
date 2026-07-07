@@ -1,0 +1,9 @@
+[project]
+name = "dashboard-academico-althaus"
+version = "1.0.0"
+description = "Dashboard estratégico de rendimiento académico — Colegio Clemente Althaus"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
